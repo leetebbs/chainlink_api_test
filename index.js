@@ -13,6 +13,21 @@ app.get("/api", (req, res) => {
   });
 });
 
+app.get("/api/videos", (req, res) => {
+  res.json({
+    day1: "https://www.youtube.com/watch?v=G7V-G7RURDI",
+    day2: "https://www.youtube.com/watch?v=c5YwxmuWIcw",
+    day3: "https://www.youtube.com/watch?v=E1sBc1YFgus",
+    day4: "https://www.youtube.com/watch?v=5IFeP0gdcpM",
+    day5: "https://www.youtube.com/watch?v=xSfTQ66qUm0",
+    day6: "https://www.youtube.com/watch?v=WjBmwy5NDgU",
+    day7: "https://www.youtube.com/watch?v=XjzJtD2ySQ0",
+    day8: "https://www.youtube.com/watch?v=-tBZsxsE8K0",
+    day9: "https://www.youtube.com/watch?v=jK6NMxz3wvc",
+    day10: "https://www.youtube.com/watch?v=7i6gAp5Sx84",
+  });
+});
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
