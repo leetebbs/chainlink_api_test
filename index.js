@@ -33,11 +33,13 @@ app.get("/", (req, res) => {
     message: "Hello from server!",
     testResponse:
       "Congrats you have made it to Tebbos Chainlink Bootcamp 2024 API test server!",
-    twitter: "https://twitter.com/LTebbs2",
-    linkedin: "https://www.linkedin.com/in/tebbo-/",
-    github: "https://github.com/leetebbs",
-    linktree: "https://linktr.ee/tebbo",
-    website: "https://portfolio-leetebbs.vercel.app/",
+    connections: {
+      twitter: "https://twitter.com/LTebbs2",
+      linkedin: "https://www.linkedin.com/in/tebbo-/",
+      github: "https://github.com/leetebbs",
+      linktree: "https://linktr.ee/tebbo",
+      website: "https://portfolio-leetebbs.vercel.app/",
+    },
   });
 });
 
