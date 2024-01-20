@@ -29,7 +29,11 @@ app.get("/api/videos", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.json({
+    message: "Hello from server!",
+    testResponse:
+      "Congrats you have made it to Tebbos Chainlink Bootcamp 2024 API test server!",
+  });
 });
 
 app.listen(3000, () => {
