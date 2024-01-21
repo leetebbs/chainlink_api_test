@@ -40,6 +40,7 @@ app.get("/", (req, res) => {
       linktree: "https://linktr.ee/tebbo",
       website: "https://portfolio-leetebbs.vercel.app/",
     },
+    videos: "https://chainlink-api-test.vercel.app/api/videos",
   });
 });
 
